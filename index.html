@@ -1,12 +1,201 @@
+<!DOCTYPE html>
 <html>
-	<title>Syed Musthaq</title>
-	<head>
-	</head>
-	<body>
-		<h1> Welcome to My Website</h1>
-		<h2>Syed Musthaq</h2>
+	<title>SYED MUSTHAQ</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	body, h1,h2,h3,h4,h5,h6 {font-family: "Bitter", sans-serif}
+	.w3-row-padding img {margin-bottom: 12px}
+	/* Set the width of the sidebar to 120px */
+	.w3-sidebar {width: 120px;background: #222;}
+	/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+	#main {margin-left: 120px}
+	/* Remove margins from "page content" on small screens */
+	@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+	</style>
+		<body class="w3-white">
+
+		<!-- Icon Bar (Sidebar - hidden on small screens) -->
+		<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+		  <!-- Avatar image in top left corner -->
+		  <img src="images/Co_Founder.jpeg" style="width:100%">
+		  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-green">
+			<i class="fa fa-home w3-xxlarge"></i>
+			<p>HOME</p>
+		  </a>
+		  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-green">
+			<i class="fa fa-user w3-xxlarge"></i>
+			<p>ABOUT</p>
+		  </a>
+		  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-green">
+			<i class="fa fa-eye w3-xxlarge"></i>
+			<p>PROJECT</p>
+		  </a>
+		  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-green">
+			<i class="fa fa-envelope w3-xxlarge"></i>
+			<p>CONTACT</p>
+		  </a>
+		</nav>
+
+		<!-- Navbar on small screens (Hidden on medium and large screens) -->
+		<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+		  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+			<a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+			<a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+			<a href="#Projects" class="w3-bar-item w3-button" style="width:25% !important">Projects</a>
+			<a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+		  </div>
+		</div>
+
+		<!-- Page Content -->
+		<div class="w3-padding-large" id="main">
+		  <!-- Header/Home -->
+		  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+			<img src="images/Co_Founder.jpeg" alt="Co-Founder" class="w3-round-small-caption w3-left" width="200" height="200"> 
+			<h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> SYED MUSTHAQ.</h1>
+			
+			<h4 class="w3-xxlarge"><span>Co-Founder at CLIENTOCLARIFY.AI PRIVATE LIMITED</h4>
+			<p>Co-Founder & Business Advocate & Sr.Finance  Advocate.</p>	
+			<div class="w3-content w3-display-container">
+			  <img class="mySlides" src="images/Certification/1.jpg" style="width:100%">
+			  <img class="mySlides" src="images/Certification/2.jpg" style="width:100%">
+			  <img class="mySlides" src="images/Certification/3.jpg" style="width:100%">
+			  <img class="mySlides" src="images/Certification/4.jpg" style="width:100%">
+
+			  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+			</div>
+		  </header>
+		  
+
+		  <!-- About Section -->
+		  <div class="w3-content w3-justify w3-text-black w3-padding-64" id="about">
+			<h2 class="w3-text-green">ABOUT ME<h2>
+			<hr style="width:200px" class="w3-opacity">
+			<p class=w3-text-black>I am self-motivated, hardworking with positive attitude towards my career and in my life. I am more flexible and adaptable to work in any kind of environment and I can work under pressure with good
+leadership & communication skills and also like to work in a team.
+			</p>
+			<h3 class="w3-padding-16 w3-text-green">MY SKILLS</h3>
+			<p class="w3-wide">AutoCAD</p>
+			<div class="w3-gray">
+			  <div class="w3-aqua" style="height:28px;width:95%"></div>
+			</div>
+			<p class="w3-wide">CATIA</p>
+			<div class="w3-gray">
+			  <div class="w3-aqua" style="height:28px;width:85%"></div>
+			</div>
+			<p class="w3-wide">Aero-dynamics</p>
+			<div class="w3-gray">
+			  <div class="w3-aqua" style="height:28px;width:85%"></div>
+			</div>
+			<p class="w3-wide"> Design of experiment (Minitab software)</p>
+			<div class="w3-gray">
+			  <div class="w3-aqua" style="height:28px;width:80%"></div>
+			</div><br>
+			
+			<!-- <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+			  <div class="w3-quarter w3-section">
+				<span class="w3-xlarge">11+</span><br>
+				Partners
+			  </div>
+			  <div class="w3-quarter w3-section">
+				<span class="w3-xlarge">55+</span><br>
+				Projects Done
+			  </div>
+			  <div class="w3-quarter w3-section">
+				<span class="w3-xlarge">89+</span><br>
+				Happy Clients
+			  </div>
+			  <div class="w3-quarter w3-section">
+				<span class="w3-xlarge">150+</span><br>
+				Meetings
+			  </div>
+			</div> -->
+
+			<button class="w3-button w3-light-grey w3-padding-large w3-section">
+			  <i class="fa fa-download"></i> Download Resume
+			</button>
+			<div class="w3-row-padding w3-text-black w3-text-small-caption" style="margin:0 -16px">
+				<h3 class="w3-padding-16 w3-text-green">ACHIEVEMENTS</h3>
+				<ul>
+					<li>Established ASME (American society of mechanical engineering) student chapter.(2016)</li>
+					<li>Stood as president of ASME Vemu student chapter.(2016-19)</li>
+					<li>Lead in organizing many events like workshops, training programs.</li>
+					<li>Organized workshops and training programs in different colleges under ASME Vemu student chapter</li>
+					<li>Attended international gas turbines institute conference (IGTI) Under ASME VIT.(25th September,2016)</li>
+					<li>Achieved 2nd place in mechanical conference under ASME VIT.(21th oct to 23rd oct,2016)</li>
+					<li>Achieved campus ambassador certificates in College festivals like MECHNOVATE, GRAVITAS,SLDC.</li>
+					<li>Participated as a coordinator in workshops.</li>
+					<li>Participated in various technical workshops, conferences and other cultural activities in VIT UNIVERSITY, Sri venkata perumal engineering college, SAVITA UNIVERSITY college festivals</li>
+					<li>Reduced De-lamination in CFRP material as final year project.(31th may)</li>
+					<li>I am a Archer and I participated in state level competition under cherukuri Lenin fort in Vijayawada. (14th-16th December,2011)</li>
+					<li>Provoked and trained many friends for life supporting and building skills to build their career.</li>
+					<li>Stood as city ambassador in SOHA technologies pvt ltd. (2018)</li>
+				</ul>
+			</div>	  
+			<!-- Portfolio Section -->
+			<div class="w3-padding-64 w3-content w3-text-black" id="Projects">
+				<h2 class="w3-text-green">MY PROJECT</h2>
+				<h3><b>Title:</b></h3> 
+				<p>EFFECT OF MACHINING PARAMETERS AND TIALN NANO COATED DRILL BIT ON HOLE QUALITY IN DRY DRILLING OF CFRP (FEB 11TH –AIPRL 30)</p>
+				<h3><b>Description:</b></h3> 
+				<p class='w3-text-justify'>Carbon fiber reinforced polymers are composite materials which relay on carbon fiber to provide the strength and stiffness while polymer provides a cohesive matrix to protect and hold the fiber together to provide sometoughness. It is much different than metal. The properties of final CFRP product can also be affected by the type of additives introduced to binding matrix (resin).</p>
+			</div>
+			<!-- End Portfolio Section -->
+
+		  <!-- Contact Section -->
+		  <div class="w3-padding-64 w3-content w3-text-black" id="contact">
+			<h2 class="w3-text-green">CONTACT ME</h2>
+			<p>Let's get in touch. Send me a message:</p>
+			<form action="/action_page.php" target="_blank">
+			  <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+			  <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+			  <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+			  <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+			  <p>
+				<button class="w3-button w3-light-grey w3-padding-large" type="submit">
+				  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+				</button>
+			  </p>
+			</form>
+		  <!-- End Contact Section -->
+		  </div>
+		  
+			<!-- Footer -->
+		  <footer class="w3-center w3-content w3-padding-64 w3-text-grey w3-xlarge">
+			<i class="fa fa-facebook-official w3-hover-opacity"></i>
+			<i class="fa fa-instagram w3-hover-opacity"></i>
+			<i class="fa fa-snapchat w3-hover-opacity"></i>
+			<i class="fa fa-pinterest-p w3-hover-opacity"></i>
+			<i class="fa fa-twitter w3-hover-opacity"></i>
+			<i class="fa fa-linkedin w3-hover-opacity"></i>
+			<p class="w3-medium">Powered by <a href="https://github.com/reddyprasade" target="_blank" class="w3-hover-text-green">CLIENTOCLARIFY</a></p>
+		  <!-- End footer -->
+		  </footer>
+
+		<!-- END PAGE CONTENT -->
+		</div>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  if (n > x.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			}
+		</script>
 	</body>
-
-
 </html>
-
